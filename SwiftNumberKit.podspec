@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/RLovelett/swift-numberkit.git", :branch => "master" }
+  s.source       = { :git => "https://github.com/achansonjr/swift-numberkit.git", :branch => "add-podspec" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -92,9 +92,9 @@ Pod::Spec.new do |s|
   #
 
   s.source_files  = "Sources/NumberKit", "Sources/NumberKit/**/*.{swift}"
-  s.ios.source_files = "NumberKitIOS/**/*.{h,plist}"
-  s.ios.exclude_files = "Sources/NumberKit/**/*.{h}"
-  s.exclude_files = "Classes/Exclude"
+  s.ios.source_files = "swift-numberkit-iOS/**/*.{h,plist}"
+  s.osx.source_files = "swift-numberkit-OSX/**/*.{h,plist}"
+  # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
