@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/achansonjr/swift-numberkit.git", :branch => "add-podspec" }
+  s.source       = { :git => "https://github.com/achansonjr/swift-numberkit.git", :tag => "v0.2" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
